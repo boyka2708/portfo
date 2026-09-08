@@ -16,21 +16,21 @@ export default function Home() {
     );
 
   return (
-    <main className="flex flex-col bg-slate-200 text-xs">
+    <main className="flex flex-col bg-black text-xs">
       <div className="flex min-h-screen flex-col items-center justify-center gap-y-4  ">
         <h1
-          className={`${Jac.className} animate-pulse text-4xl sm:text-6xl text-center text-slate-900 mt-16 sm:mt-32`}
+          className={`${Jac.className} animate-pulse text-4xl sm:text-6xl text-center text-amber-100 mt-16 sm:mt-32`}
         >
-          Hello, I am Maneesh,
+          Hello, I am Maneesh
         </h1>
-        <div className=" mt-28 ml-4 w-4/5 sm:w-3/5 p-6 2xl:w-4/5 border-4 border-double border-black">
+        <div className=" mt-28 ml-4 w-4/5 sm:w-3/5 p-6 2xl:w-4/5 border-4 border-double border-amber-100">
           {text.map((el, i) => (
             <motion.span
               key={i}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 2, delay: i / 5 }}
-              className={`${Jac.className} text-slate-900 sm:text-3xl text-lg font-bold font-mono text-balance`}
+              className={`${Jac.className} text-amber-100 sm:text-3xl text-lg font-bold font-mono text-balance`}
 
             >
               {el}{' '}

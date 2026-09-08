@@ -27,9 +27,10 @@ function Cards({ src,name,href,info}: Props) {
               src={src}
               alt="lll"
               fill={true}
+
             />
           </div>
-          <Link href={href} className="text-center mx-auto my-2 ">
+          <Link href={href} target="_blank" className="text-center mx-auto my-2 ">
             <p className={`${faust.className} bg-blue-700 p-2 rounded-xl font-semibold`}>
               Visit Live Demo
             </p>
